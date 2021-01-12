@@ -35,7 +35,7 @@ services:
             - STORE_BOLT_PATH=/srv/var/db
             - BACKUP_PATH=/srv/var/backupang
             - DEBUG=true
-            - ADMIN_PASSWD=password
+            - ADMIN_PASSWD=lkwejflkwejflkjo1073klh235k
             - AUTH_DEV=true   # activate local oauth "dev"
             - ADMIN_SHARED_ID=dev_user  # set admin flag for default user on local ouath2
             - POSITIVE_SCORE=false # restricts comment's score to be only positive
