@@ -24,12 +24,12 @@ services:
             - STORE_BOLT_PATH=/srv/var/db
             - BACKUP_PATH=/srv/var/backup
             - DEBUG=true
-            - AUTH_GOOGLE_CID
-            - AUTH_GOOGLE_CSEC
-            - AUTH_GITHUB_CID
-            - AUTH_GITHUB_CSEC
-            - AUTH_FACEBOOK_CID
-            - AUTH_FACEBOOK_CSEC
+            - AUTH_GOOGLE_CID=369000010390-unj195k45m50dnm56gjif9qr74b94gi5.apps.googleusercontent.com
+            - AUTH_GOOGLE_CSEC=1ZaIT-u0bi9Wk8X1oSzi4Upl
+            - AUTH_GITHUB_CID=95869
+            - AUTH_GITHUB_CSEC=Iv1.93d45a72a792d0d1
+            - AUTH_FACEBOOK_CID=704208103615872
+            - AUTH_FACEBOOK_CSEC=f167d9155e725fedccdc45649f377a3d
             - AUTH_DISQUS_CID
             - AUTH_DISQUS_CSEC
             # - ADMIN_PASSWD=password
