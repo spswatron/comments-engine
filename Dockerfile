@@ -11,7 +11,7 @@ ARG SKIP_BACKEND_TEST
 ARG BACKEND_TEST_TIMEOUT
 
 ADD backend /build/backend
-ADD .git/ /build/backend/.git/
+# ADD .git/ /build/backend/.git/
 WORKDIR /build/backend
 
 ENV GOFLAGS="-mod=vendor"
